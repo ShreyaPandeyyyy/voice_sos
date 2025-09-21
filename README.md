@@ -1,16 +1,37 @@
-# voice_sos
+# Voice SOS 🚨
 
-A new Flutter project.
+A **Flutter-based Voice-Activated SOS Alert System**.  
+This app lets you trigger emergency alerts using **voice commands** like "Help" or "SOS".  
 
-## Getting Started
+When triggered, the app:  
+- 🎙️ Listens for voice commands  
+- 📍 Fetches your **real-time GPS location**  
+- 📲 Sends an SOS alert with your location via **WhatsApp (Web & App)**  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🌐 Live Demo
+👉 [Try it here](https://shreyapandeyyyy.github.io/voice_sos/)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+- Voice recognition for emergency keywords  
+- GPS integration for location tracking  
+- WhatsApp integration to send alerts  
+- Works on **Web, Android, and iOS**  
+
+---
+
+## 🛠️ Tech Stack
+- Flutter (Dart)  
+- Speech-to-Text API  
+- Geolocator  
+- URL Launcher  
+
+---
+
+## 📌 How to Run Locally
+```bash
+flutter pub get
+flutter run -d chrome
